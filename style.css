@@ -1,0 +1,52 @@
+@font-face {
+  font-family: OpenSauce-Regular;
+  src: url(Fonts/OpenSauceOne-Regular.ttf);
+}
+@font-face {
+  font-family: OpenSauce-SemiBold;
+  src: url(Fonts/OpenSauceOne-SemiBold.ttf);
+}
+
+body {
+  background-image: url(img/itachi-uchiha-bg.jpg);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  font-family: OpenSauce-Regular;
+}
+
+.container {
+  backdrop-filter: blur(8px);
+  /* background-color: blue; */
+  /* centers the container*/
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  /* center container end */
+
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 1em; */
+  width: 50%;
+  margin: 0 auto;
+  min-width: 360px;
+  
+}
+
+.intro-content, .more-content {
+  /* background-color: rgb(24, 179, 24); */
+  margin: inherit;
+  width: 40%;
+  padding: 2em;
+}
+
+h1 {
+  font-family: OpenSauce-SemiBold;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
