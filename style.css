@@ -9,7 +9,7 @@
 
 body {
   background-image: url(img/itachi-uchiha-bg.jpg);
-  overflow: hidden;
+  /* overflow: hidden; */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -33,7 +33,7 @@ body {
   width: 50%;
   margin: 0 auto;
   min-width: 360px;
-  
+  padding: 4em 0;
 }
 
 .intro-content, .more-content {
@@ -51,5 +51,15 @@ a {
   color: white;
 }
 ul {
+  margin: o;
+  padding: 0;
+  display: flex;
   list-style: none;
+}
+
+.ig-icon, .fb-icon, .twt-icon {
+  width: 2em;
+  height: 2em;
+  padding: 0.5em;
+  padding-left: 0;
 }
